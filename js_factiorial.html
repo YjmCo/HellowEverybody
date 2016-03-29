@@ -1,0 +1,43 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+	<title>목록 태그</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+
+<style>
+
+
+</style>
+<script>
+/*
+var input = prompt('input number', 'only Number!');
+*/
+
+function factiorial(n) {
+	var output = 1;
+	for(var i=1;i<=n;i++){
+	  output *=i; 
+	}
+	return output;
+
+}
+
+function factorialSelf(n) {
+	if(n <=1)
+	  return 1;
+	else
+	  return n*factioralSelf(n-1);
+}
+alert(factorial(output));
+alert(factorialSelf(input));
+</script>
+
+
+</head>
+
+<body>
+</body>
+
+</html>
